@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="main">
+            <div class="weather-container">
+                <div class="box">
+                    <div class="info-weather">
+                        <img src="./images/cloud.png" alt="">
+                        <p class="temperature">0 <span>∘C</span></p>
+                        <p class="description">Brroken Clouds</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water roy"></i>
+                    <div class="text">
+                        <div class="info-humidity">
+                            <span>0%</span>
+                        </div>
+                        <p>Humidity</p>
+                    </div>  
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind roy"></i>
+                    <div class="text">
+                        <div class="info-wind">
+                            <span>0km/h</span>
+                        </div>
+                        <p>Wind</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="search">
+                <i class="fa-solid fa-location-dot map"></i>
+                <input type="text" placeholder="Enter your city">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+
+            <div class="not-found">
+                <div class="box">
+                    <img src="./images/404.png" alt="">
+                    <p>Location not found</p>
+                </div>
+            </div>
+
+            <div class="default-text">
+                <h1>Sky Insight</h1>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script src="gsap.js"></script>
+</body>
+</html>
